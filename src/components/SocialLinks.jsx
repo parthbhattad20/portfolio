@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+           <FaLinkedin size={30} />
         </>
       ),
       href: "https://www.linkedin.com/in/parth-bhattad-21a38022a/?originalSubdomain=in",
@@ -19,7 +19,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+           <FaGithub size={30} />
         </>
       ),
       href: "https://github.com/parthbhattad20",
@@ -28,7 +28,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+           <HiOutlineMail size={30} />
         </>
       ),
       href: "mailto:bhattadparth20@gmail.com",
@@ -37,7 +37,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+           <BsFillPersonLinesFill size={30} />
         </>
       ),
       href: "https://drive.google.com/file/d/15tc0hw2XHdDGu9QDJuoS8Lw-pFYIRV0E/view?usp=drive_link",
@@ -47,13 +47,13 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className=" lg:flex flex-col top-[50%] right-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-15 h-14 px-4 hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
               " " +
               style
             }
