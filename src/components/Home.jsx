@@ -1,7 +1,7 @@
 import React from "react";
 
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import Typed from "react-typed";
+
 
 
 const Home = () => {
@@ -13,8 +13,7 @@ const Home = () => {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full mt-0">
                     <h2 className="text-4xl sm:text-7xl font-bold text-blue-400 mt-20">
-                        Welcome to my Portfolio! I am <Typed className=""   strings={[' a Student',' a Developer','a Quick Learner','a Tech Enthusiast','IOT Enthusiast']}
-                    typeSpeed={40} backSpeed={40} loop />
+                        Welcome to my Portfolio! 
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
                     I am Parth Bhattad, an ambitious Electronics and Telecommunication Engineering student with a passion for Full Stack Development. My proficiency in the MERN stack, Next.js, Docker, and data structures & algorithms sets me on a path to create innovative solutions and drive positive change in the world of technology. I am excited about the opportunities that lie ahead and eager to make a significant impact in the tech industry.
