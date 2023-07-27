@@ -14,7 +14,7 @@ const About = () => {
                 </div>
 
                 <p className="text-xl mt-5">
-                    <h1 className="font-bold">Engineering Excellence:</h1>
+                    <h1 className="font-bold">Engineering Studies:</h1>
                     As a student of Electronics and Telecommunication, I have
                     delved deep into the intricate workings of electronic
                     systems and communication networks. Through my academic
@@ -48,8 +48,7 @@ const About = () => {
                 </p>
                 <br />
                 <p className="text-xl mt-5">
-                    <h1 className="font-bold">Data Structures and Algorithms:</h1>I take immense pride
-                    in my strong grasp of data structures and algorithms. This
+                    <h1 className="font-bold">Data Structures and Algorithms:</h1> This
                     proficiency not only fuels my passion for problem-solving
                     but also equips me to optimize application performance,
                     ensuring efficient and reliable solutions.
