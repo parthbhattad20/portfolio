@@ -31,7 +31,7 @@ const Home = () => {
 
                  <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full mt-0">
-                    <h2 className="text-4xl sm:text-7xl font-bold text-blue-400 mt-20">
+                    <h2 className="text-4xl sm:text-7xl font-bold text-blue-400 mt-5">
                         Welcome to my Portfolio! I am a{" "}
                         <span>
                             <Typewriter
