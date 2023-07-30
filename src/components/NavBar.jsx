@@ -8,8 +8,11 @@ const NavBar = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-      setLoading(true); 
-  },);
+      setLoading(true);
+      setTimeout(() => {
+          setLoading(false);
+      }, 600000000000);
+  },[]);
 
   const links = [
     {
