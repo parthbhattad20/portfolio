@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import RingLoader from "react-spinners/RingLoader";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+      setLoading(true); 
+  },);
 
   const links = [
     {
@@ -31,7 +37,13 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-       
+      <RingLoader
+                className="flex "
+                color={"#2196F3"}
+                loading={loading}
+                size={40}
+             
+              />
       </div>
 
       <ul className="hidden md:flex">

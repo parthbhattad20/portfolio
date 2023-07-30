@@ -1,33 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React  from "react";
 
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 import { Typewriter } from "react-simple-typewriter";
 
-import DotLoader from "react-spinners/DotLoader";
+
 
 const Home = () => {
-    const [loading, setLoading] = useState(false);
+    // const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-        }, 60000000);
-    },[]);
+    // useEffect(() => {
+    //     setLoading(true);
+    //     setTimeout(() => {
+    //         setLoading(false);
+    //     }, 60000000);
+    // },[]);
     return (
         <div
             name="home"
             className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
       
-                <DotLoader
+                {/* <DotLoader
                 className="flex "
                 color={"#2196F3"}
                 loading={loading}
                 size={40}
              
-              />
+              /> */}
 
                  <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full mt-0">
