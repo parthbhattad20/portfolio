@@ -13,7 +13,7 @@ const Home = () => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);
-        }, 60000);
+        }, 60000000);
     },[]);
     return (
         <div
