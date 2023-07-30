@@ -11,7 +11,7 @@ const NavBar = () => {
       setLoading(true);
       setTimeout(() => {
           setLoading(false);
-      }, 600000000000);
+      }, 600000);
   },[]);
 
   const links = [
